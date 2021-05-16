@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">>
+    <title>Personal Website</title>
+</head>
+<body>
+
+<!-- Dark mode -->
+<div class="theme-container">
+    <span id="toggle-icon">
+        <span class="toggle.text">Light Mode</span>
+        <i class="fas fa-sun"></i>
+    </span>
+    <label  class="theme-switch">
+        <input type="checkbox">
+        <div class="slider round"></div>
+    </label>
+</div>
+<!-- Navigation -->
+
+<nav id="nav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+
+</nav>
+    <!-- Home section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>I'm Carol,</h1>
+            <h2>and I'm looking for a Frontend internship</h2>
+        </div>
+    </section>
+    <!-- About section -->
+    <section id="about">
+        <h1>About me</h1>
+        <div class="about-container">
+            <div class="image-container">
+                <h2>Who am I?</h2>
+                <p>
+                    My name is Zavacki Carol and I am a student based in Cluj. I have a bachelor degree in psychology and currently I am attending
+                     the master courses in Human Resources and Organizational Health within the same faculty.
+                    <br> I attended a frontend web development course at FastTrackIT and for the moment I'm self learning Javascript on Udemy.
+                </p>
+                <div class="test">
+                <img src="img/undraw_personal_info_light.svg" alt="" id="image1">
+                </div>
+            </div>
+            <div class="image-container">
+                <h2>What I am looking for</h2>
+                <p> I'm looking for an internship as a Frontend Developer in Cluj as I enjoy the field and I want to develop a career as a Full Stack Web Developer.
+                     I'm willing to take an unpaid internship for the opportunity to further learn the field within a company, as I think it will boost my learning process
+                     and skill development.
+                </p>
+                <div class="test">
+                <img src="img/undraw_feeling_proud_light.svg" alt="" id="image2">
+                </div>
+            </div>
+            <div class="image-container">
+                <h2> What you can expect </h2>
+                <p> During the internship my main focus would be to learn whatever technology would be useful for the company. 
+                     Preferably, I would like to deepen my knowledge on Javascript, Node and React, so that I would feel ready for a junior position.
+                </p>
+                <div class="test">
+                <img src="img/undraw_conceptual_idea_light.svg" alt="" id="image3">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Project section -->
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="projects-container">
+         
+            <div class="project-container">
+                <h2>Calculator</h2>
+                <a href="https://github.com/carolzavacki/Calculator" target="_blank"> 
+                    <img src="img/Capture.JPG"> 
+                </a>
+                <p>A functional math calculator that I've built with  Javascript. It can do the 4 simple math operations : addition, substraction, multiplication and 
+                     division. The app allows the user to do math with decimals and also counts for the times the user may introduce 2 decimal points by error.
+                     The app listens to click only events (so it does not function with keyboard numeric input), but I plan to recreate this app as soon as I'll learn
+                     a Javascript framework.
+                </p>  
+                
+            </div>
+            
+
+            <div class="project-container">
+                <h2>Variety of foods</h2>
+                <a href="https://github.com/carolzavacki/Variety-of-Foods" target="_blank">
+                <img src="img/Capture2.JPG"> 
+                </a>
+                <p>This app represents a plain  one page presentation website. The main technology used here was CSS, with barely any Javascript. All the icons used are 
+                    Font Awesome Icons, taken from fontawesome.com, along with their specific CSS. The app also has a dropdown menu, along with icons, cards and gallery
+                    that tries to represent a generic food restaurant.
+                </p>
+                
+                    
+            </div>
+
+            <div class="project-container">
+                <h2>Infinite scroll</h2>
+                <a href="https://github.com/carolzavacki/Infinite-Scroll" target="_blank">
+                <img src="img/Capture3.JPG" alt="">
+                </a>
+                <p>This app generates an infinite scroll of pictures by using the Unsplash API and the scroll event listener. It's main focus was working around an API
+                    to better understand them. The app displays a loader SVG from  loading.io when you first open it, and it requests photos from Unsplash as you scroll 
+                    down. By hovering over a photo it displays it's name, and by clicking on any image it will send you to the Unsplash website on that specific picture. </p>
+
+            </div>
+        </div>
+    </section>
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="social-icons">
+            <a href="https://github.com/carolzavacki?tab=repositories" target="_blank"> <i class="fab fa-github"> </i>  </a>
+            <a href="https://www.linkedin.com/in/carol-zavacki-741150212" target="_blank"> <i class="fab fa-linkedin-in"> </i>  </a>
+            <a href="https://www.facebook.com/carol.zavacki.7/" target="_blank"> <i class="fab fa-facebook-square">   </i>  </a>
+        </div>
+        <div class="text-box" id="text-box">
+            <h3> Contact Info:</h1>
+            <p>If you would like to give me a chance, or meet for a face-to-face interview, you can contact me at the following:</p>
+            <p>Phone number : <span class="highlight">0784 472 327</span></p>
+            <p>Email: <span class="highlight">carolzavacki82@gmail.com</span> </p>
+            <br>
+            <p>Thank you for your time,</p>
+            <p> Carol Zavacki</p>
+        </div>
+        
+    </section>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
